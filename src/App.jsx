@@ -1,4 +1,5 @@
 import { HeroSec } from "./heroSec/HeroSec";
+import { HeroTailSec } from "./heroTailSec/HeroTailSec";
 import { NavBar } from "./navBar/NavBar";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <NavBar />
       <HeroSec />
+      <HeroTailSec />
     </>
   );
 }

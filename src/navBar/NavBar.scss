@@ -1,6 +1,13 @@
+body {
+  margin: 0;
+}
+
 .NavBar {
   display: flex;
+  position: sticky;
+  top: 0;
   justify-content: space-between;
+ padding-right: 10px;
   a {
     margin: 10px;
     text-decoration: none;
