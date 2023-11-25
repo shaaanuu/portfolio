@@ -1,0 +1,23 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+}
+.NavBar a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+.NavBar .menu {
+  margin-block: auto;
+  display: flex;
+  margin-block: auto;
+}
+.NavBar .menu a:hover {
+  color: grey;
+}
+.NavBar .menu .letsTalk {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+}/*# sourceMappingURL=NavBar.css.map */

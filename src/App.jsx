@@ -1,9 +1,9 @@
-import { Old } from "./old/old";
+import { NavBar } from "./navBar/NavBar";
 
 function App() {
   return (
     <>
-      <Old />
+      <NavBar />
     </>
   );
 }
