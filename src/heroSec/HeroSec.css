@@ -1,0 +1,18 @@
+.hero-sec {
+  padding-top: 30px;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-sec div {
+  background-color: tomato;
+}
+.hero-sec div p {
+  padding-inline: 50px;
+  font-size: 65px;
+  font-weight: bolder;
+}
+.hero-sec div p span {
+  color: white;
+}/*# sourceMappingURL=HeroSec.css.map */

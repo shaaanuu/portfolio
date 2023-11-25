@@ -2,6 +2,10 @@ import React from "react";
 import "./NavBar.css";
 
 export const NavBar = () => {
+  const onClick = () => {
+    console.log('clicked')
+  };
+
   return (
     <div className="NavBar">
       <h3>
@@ -11,7 +15,9 @@ export const NavBar = () => {
         <a href="#">about</a>
         <a href="#">services</a>
         <a href="#">projects</a>
-        <div className="letsTalk">Lets's Talk</div>
+        <div className="letsTalk" onClick={onClick}>
+          Lets's Talk
+        </div>
       </div>
     </div>
   );

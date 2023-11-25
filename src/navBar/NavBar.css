@@ -20,4 +20,13 @@
   color: white;
   padding: 10px;
   border-radius: 25px;
+}
+.NavBar .menu .letsTalk:hover {
+  cursor: pointer;
+}
+.NavBar .menu .letsTalk::-moz-selection {
+  color: white;
+}
+.NavBar .menu .letsTalk::selection {
+  color: white;
 }/*# sourceMappingURL=NavBar.css.map */
