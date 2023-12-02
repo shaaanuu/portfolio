@@ -1,9 +1,10 @@
 import React from "react";
 import "./NavBar.scss";
+import { motion } from "framer-motion";
 
 export const NavBar = () => {
   const onClick = () => {
-    console.log('clicked')
+    console.log("clicked");
   };
 
   return (
@@ -15,9 +16,14 @@ export const NavBar = () => {
         <a href="#">about</a>
         <a href="#">services</a>
         <a href="#">projects</a>
-        <div className="letsTalk" onClick={onClick}>
+        <motion.div
+          className="letsTalk"
+          onClick={onClick}
+          whileHover={{ scale: 1.1 }}
+          transition={{ duration: 0.3, delay: 0.1 }}
+        >
           Lets's Talk
-        </div>
+        </motion.div>
       </div>
     </div>
   );
