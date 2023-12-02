@@ -1,5 +1,5 @@
 import React from "react";
-import "./HeroTailSec.css";
+import "./HeroTailSec.scss";
 
 export const HeroTailSec = () => {
   return (

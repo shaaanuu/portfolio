@@ -1,25 +1,38 @@
-body{
-  background-color: #DAD7CD;
-  // background-color: #CCC5B9;
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+
+body {
+  background-color: #dad7cd;
 }
 
 .hero-sec {
+  font-family: "Black Han Sans", sans-serif;
   padding-top: 30px;
   height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
-  div {
+
+  .bg {
     background-image: url("src/assets/bg.svg");
     background-size: cover;
+    height: 520px;
     border-radius: 10px;
+    width: 700px;
+    display: flex;
+
     p {
-      padding-inline: 50px;
-      font-size: 65px;
+      font-size: 100px;
       font-weight: bolder;
+      margin: 0;
+      width: 120%;
+      margin-left: -70px;
+      text-align: center;
+      margin-top: 42px;
+      
 
       span {
-        color: white;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1.5px;
       }
     }
   }
