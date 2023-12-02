@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export const HeroSec = () => {
   return (
     <div className="hero-sec">
-      <div
+      <motion.div
         className="bg"
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
@@ -50,7 +50,7 @@ export const HeroSec = () => {
             HEY, I'M SHAN
           </motion.p>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
