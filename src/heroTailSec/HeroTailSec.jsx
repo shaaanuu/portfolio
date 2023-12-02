@@ -4,10 +4,10 @@ import "./HeroTailSec.scss";
 export const HeroTailSec = () => {
   return (
     <div className="HeroTailSec">
-      <p>
+      <h1>
         Crafting unified digital experiences across platforms, ensuring a warm
         welcome into a world of seamless connectivity.
-      </p>
+      </h1>
     </div>
   );
 };
