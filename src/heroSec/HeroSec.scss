@@ -1,16 +1,23 @@
+body{
+  background-color: #DAD7CD;
+  // background-color: #CCC5B9;
+}
+
 .hero-sec {
   padding-top: 30px;
-  height: 30rem;
+  height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
   div {
-    background-color: tomato;
+    background-image: url("src/assets/bg.svg");
+    background-size: cover;
+    border-radius: 10px;
     p {
       padding-inline: 50px;
       font-size: 65px;
       font-weight: bolder;
-      
+
       span {
         color: white;
       }
