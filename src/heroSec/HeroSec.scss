@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
 
+$fontcolor: #1b1b1a;
+
 body {
   background-color: #dad7cd;
 }
@@ -22,6 +24,7 @@ body {
     display: flex;
 
     p {
+      color: $fontcolor;
       font-size: 100px;
       font-weight: bolder;
       margin: 0;
@@ -29,11 +32,11 @@ body {
       margin-left: -70px;
       text-align: center;
       margin-top: 28px;
-      
 
       span {
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 1.5px;
+        // color: $fontcolor;
       }
     }
   }
