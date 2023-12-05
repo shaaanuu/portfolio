@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Portfolio
 
 This is my personal portfolio created with Vite. Vite is a build tool that provides fast and efficient development workflows for your projects.
 
@@ -15,13 +15,13 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your mach
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/shaaanuu/shaaanuu.github.io.git
+git clone https://github.com/shaaanuu/portfolio.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd shaaanuu.github.io
+cd https://github.com/shaaanuu/portfolio.git
 ```
 
 3. Install the project dependencies:
