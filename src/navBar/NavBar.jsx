@@ -1,11 +1,27 @@
 import React from "react";
 import "./NavBar.scss";
 import { motion } from "framer-motion";
+import { IconMenu } from "@tabler/icons-react";
+import Dropdown from "rc-dropdown";
+import "rc-dropdown/assets/index.css";
 
 export const NavBar = () => {
   const onClick = () => {
     console.log("clicked");
   };
+  const menu = (
+    <ul className="drop-menu-items">
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Services</a>
+      </li>
+      <li>
+        <a href="#">Projects</a>
+      </li>
+    </ul>
+  );
 
   return (
     <div className="NavBar">
@@ -13,9 +29,14 @@ export const NavBar = () => {
         <a href="#">shaaanuu</a>
       </h3>
       <div className="menu">
-        <a href="#">about</a>
-        <a href="#">services</a>
-        <a href="#">projects</a>
+        <div className="menu-items">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Projects</a>
+        </div>
+        <Dropdown overlay={menu} trigger={["click"]} className="drop-down">
+          <IconMenu className="dropbtn" />
+        </Dropdown>
         <motion.div
           className="letsTalk"
           onClick={onClick}
