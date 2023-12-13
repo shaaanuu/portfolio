@@ -16,6 +16,13 @@ body {
   align-items: center;
   user-select: none;
 
+  @media only screen and (max-width: 600px) {
+    height: 21rem;
+  }
+  @media only screen and (max-width: 850px) and (min-width: 600px) {
+    height: 23rem;
+  }
+
   .bg {
     background-image: url("/assets/bg.svg");
     background-size: cover;
