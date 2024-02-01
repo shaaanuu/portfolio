@@ -4,6 +4,20 @@ html {
   scroll-behavior: smooth;
 }
 
+p,
+a,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  &::selection {
+    background-color: #25242238;
+  }
+}
+
 body {
   margin: 0;
 

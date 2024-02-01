@@ -1,3 +1,4 @@
+import { AboutSec } from "./aboutSec/AboutSec";
 import { HeroSec } from "./heroSec/HeroSec";
 import { HeroTailSec } from "./heroTailSec/HeroTailSec";
 import { NavBar } from "./navBar/NavBar";
@@ -8,6 +9,7 @@ function App() {
       <NavBar />
       <HeroSec />
       <HeroTailSec />
+      <AboutSec />
     </>
   );
 }

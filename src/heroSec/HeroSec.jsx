@@ -1,4 +1,3 @@
-import React from "react";
 import "./HeroSec.scss";
 import { motion } from "framer-motion";
 
