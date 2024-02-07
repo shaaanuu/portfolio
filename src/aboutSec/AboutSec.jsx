@@ -3,7 +3,7 @@ import "./AboutSec.scss";
 export const AboutSec = () => {
   return (
     <>
-      <div className="about-me-title">ABOUT ME</div>
+      <div className="about-me-title">-ABOUT ME-</div>
       <div className="about-sec" id="about">
         <div className="about-pic">
           <img src="/assets/pic.jpeg" alt="pic" />
