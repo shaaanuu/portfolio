@@ -34,7 +34,14 @@ body {
   font-family: "Atomic Marker", cursive;
   margin-top: 160px;
   transform: rotate(-10deg);
-  
+  text-shadow: 10px 10px 0.5px #25242247 ;
+
+  @media only screen and (max-width: 1000px) {
+    font-size: 130px;
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: 80px;
+  }
 }
 
 .letter {
@@ -43,12 +50,3 @@ body {
   font-family: "Atomic Marker Extra", cursive;
   font-size: random($maxFontSize - $minFontSize) + $minFontSize * 1px;
 }
-
-/* Positioning for individual letters */
-// @for $i from 1 through length("abcdefghijklmnopqrstuvwxyz") {
-//   $letter: nth("abcdefghijklmnopqrstuvwxyz", $i);
-//   .letter-#{$letter} {
-//     top: random(100) * 1%;
-//     left: random(100) * 1%;
-//   }
-// }
