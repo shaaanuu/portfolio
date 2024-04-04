@@ -27,6 +27,7 @@ body {
   height: 590px;
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .main-heading {
@@ -34,7 +35,7 @@ body {
   font-family: "Atomic Marker", cursive;
   margin-top: 160px;
   transform: rotate(-10deg);
-  text-shadow: 10px 10px 0.5px #25242247 ;
+  text-shadow: 10px 10px 0.5px #25242247;
 
   @media only screen and (max-width: 1000px) {
     font-size: 130px;
