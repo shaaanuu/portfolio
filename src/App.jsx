@@ -1,4 +1,4 @@
-import { AboutSec } from "./aboutSec/AboutSec";
+import { Footer } from "./footer/Footer";
 import { HeroSec } from "./heroSec/HeroSec";
 import { HeroTailSec } from "./heroTailSec/HeroTailSec";
 import { NavBar } from "./navBar/NavBar";
@@ -9,7 +9,7 @@ function App() {
       <NavBar />
       <HeroSec />
       <HeroTailSec />
-      <AboutSec />
+      <Footer />
     </>
   );
 }
