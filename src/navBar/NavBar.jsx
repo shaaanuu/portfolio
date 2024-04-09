@@ -34,9 +34,6 @@ export const NavBar = () => {
           <a href="#">Services</a>
           <a href="#">Projects</a>
         </div>
-        <Dropdown overlay={menu} trigger={["click"]} className="drop-down">
-          <IconMenu className="dropbtn" />
-        </Dropdown>
         <motion.div
           className="letsTalk"
           onClick={onClick}
@@ -45,6 +42,9 @@ export const NavBar = () => {
         >
           Lets's Talk
         </motion.div>
+        <Dropdown overlay={menu} trigger={["click"]} className="drop-down">
+          <IconMenu className="dropbtn" />
+        </Dropdown>
       </div>
     </div>
   );

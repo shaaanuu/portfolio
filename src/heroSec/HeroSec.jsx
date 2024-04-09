@@ -79,16 +79,15 @@ import "./HeroSec.scss";
 import React, { useEffect } from "react";
 
 export const HeroSec = () => {
-  const alphabet =
-    "abcdefghijklmnopqrstuvwxyzabcdefghijk".toUpperCase();
+  const alphabet = "abcdefghijklmnopqrstuvwxyzabcdefghijk".toUpperCase();
 
   useEffect(() => {
-    // Randomly position each letter
+    // Randomly position each letter within the width of the screen
     const letters = document.querySelectorAll(".letter");
     letters.forEach((letter) => {
-      const randomX = Math.random() * 100; // Random horizontal position
+      const randomX = Math.random() * (window.innerWidth - 100); // Adjust 100 based on the maximum width of a letter
       const randomY = Math.random() * 100; // Random vertical position
-      letter.style.left = `${randomX}%`;
+      letter.style.left = `${randomX}px`;
       letter.style.top = `${randomY}%`;
     });
   }, []);
@@ -98,7 +97,7 @@ export const HeroSec = () => {
       <div className="main-heading">shaaanuu</div>
       {/* Generate individual divs for each letter glyph */}
       {alphabet.split("").map((letter, index) => (
-        <div key={index} className={`letter letter-${letter}`}>
+        <div key={index} className={`letter`}>
           {letter}
         </div>
       ))}
