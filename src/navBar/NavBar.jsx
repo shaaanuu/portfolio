@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { IconMenu } from "@tabler/icons-react";
 import Dropdown from "rc-dropdown";
 import "rc-dropdown/assets/index.css";
+import { BrowserRouter as Router } from "react-router-dom";
 
 export const NavBar = () => {
   const onClick = () => {
@@ -29,11 +30,11 @@ export const NavBar = () => {
         <a href="#">shaaanuu</a>
       </h3>
       <div className="menu">
-        <div className="menu-items">
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Projects</a>
-        </div>
+        <Router className="menu-items">
+          <a href="#about">About</a>
+          <a href="/blog">Blog</a>
+          <a href="/">Projects</a>
+        </Router>
         <motion.div
           className="letsTalk"
           onClick={onClick}
