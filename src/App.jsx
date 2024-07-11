@@ -1,7 +1,7 @@
-import { Footer } from "./footer/Footer";
-import { HeroSec } from "./heroSec/HeroSec";
-import { HeroTailSec } from "./heroTailSec/HeroTailSec";
-import { NavBar } from "./navBar/NavBar";
+import { Footer } from "./components/footer/Footer";
+import { HeroSec } from "./components/heroSec/HeroSec";
+import { HeroTailSec } from "./components/heroTailSec/HeroTailSec";
+import { NavBar } from "./components/navBar/NavBar";
 
 function App() {
   return (
