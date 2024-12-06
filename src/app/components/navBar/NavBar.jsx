@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { IconMenu } from "@tabler/icons-react";
 import Dropdown from "rc-dropdown";
 import "rc-dropdown/assets/index.css";
+import Link from "next/link";
 
 export const NavBar = () => {
   const onClick = () => {
@@ -14,13 +15,13 @@ export const NavBar = () => {
   const menu = (
     <ul className="drop-menu-items">
       <li>
-        <a href="#">About</a>
+        <Link href="/#about">About</Link>
       </li>
       <li>
-        <a href="#">Services</a>
+        <Link href="/blog">Blog</Link>{" "}
       </li>
       <li>
-        <a href="#">Projects</a>
+        <Link href="/">Projects</Link>
       </li>
     </ul>
   );
@@ -28,13 +29,13 @@ export const NavBar = () => {
   return (
     <div className="NavBar">
       <h3>
-        <a href="#">shaaanuu</a>
+        <Link href="#">shaaanuu</Link>
       </h3>
       <div className="menu">
         <div className="menu-items">
-          <a href="/#about">About</a>
-          <a href="/blog">Blog</a>
-          <a href="/">Projects</a>
+          <Link href="/#about">About</Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/">Projects</Link>
         </div>
         <motion.div
           className="letsTalk"
