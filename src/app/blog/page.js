@@ -1,6 +1,6 @@
-import "./blogHome.scss";
-import { NavBar } from "../../components/navBar/NavBar";
-import { BlogItem } from "../../components/blogItem/blogItem";
+import "./page.scss";
+import { NavBar } from "../components/navBar/NavBar";
+import { BlogItem } from "../components/blogItem/blogItem";
 
 const Blog = () => {
   return (

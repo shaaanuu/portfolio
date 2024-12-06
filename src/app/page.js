@@ -3,7 +3,7 @@ import { HeroSec } from "./components/heroSec/HeroSec";
 import { HeroTailSec } from "./components/heroTailSec/HeroTailSec";
 import { NavBar } from "./components/navBar/NavBar";
 
-function App() {
+export default function Home() {
   return (
     <>
       <NavBar />
@@ -13,5 +13,3 @@ function App() {
     </>
   );
 }
-
-export default App;
