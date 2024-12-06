@@ -43,7 +43,7 @@ export const NavBar = () => {
           whileHover={{ scale: 1.1 }}
           transition={{ duration: 0.3, delay: 0.1 }}
         >
-          Lets's Talk
+          Let&apos;s Talk
         </motion.div>
         <Dropdown overlay={menu} trigger={["click"]} className="drop-down">
           <IconMenu className="dropbtn" />
