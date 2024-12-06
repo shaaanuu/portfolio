@@ -1,60 +1,40 @@
-# Portfolio
+### **Hey, I’m Shaaanuu.**
 
-This is my personal portfolio created with Vite. Vite is a build tool that provides fast and efficient development workflows for your projects.
+_This is my simple portfolio, where I keep things clean and minimal._
 
-## Getting Started
+---
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+#### **⚡ Get It Running Locally**
 
-### Prerequisites
+To run this locally:
 
-Make sure you have Node.js and npm (Node Package Manager) installed on your machine. You can download and install them from [nodejs.org](https://nodejs.org/).
+1. Clone it:
 
-### Installing
+   ```bash
+   git clone https://github.com/shaaanuu/portfolio.git
+   ```
 
-1. Clone the repository to your local machine:
+2. Install dependencies:
 
-```bash
-git clone https://github.com/shaaanuu/portfolio.git
-```
+   ```bash
+   npm install
+   ```
 
-2. Navigate to the project directory:
+3. Run it:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-cd https://github.com/shaaanuu/portfolio.git
-```
+---
 
-3. Install the project dependencies:
+#### **🌐 Live Demo**
 
-```bash
-npm install
-```
+You can check it out here:  
+[shaaanuu.vercel.app](https://shaaanuu.vercel.app)
 
-### Development
+---
 
-To start the development server, run the following command:
+#### **🛠️ Tech Stack**
 
-```bash
-npm run dev
-```
-
-This will launch the development server, and your React application will be available at [http://localhost:3000](http://localhost:3000).
-
-### Build
-
-To build the production-ready application, use the following command:
-
-```bash
-npm run build
-```
-
-The production build will be located in the `dist` directory.
-
-## Built With
-
-- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
-- [Vite](https://vitejs.dev/) - A build tool that is designed to be fast and efficient. [Other dependencies, as needed]
-
-## Contributing
-
-Contributions are welcome.
+- **Next.js**
+- **React**
