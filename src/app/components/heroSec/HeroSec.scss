@@ -1,26 +1,3 @@
-$fontcolor: #1b1b1a;
-$minFontSize: 28;
-$maxFontSize: 32;
-
-@font-face {
-  font-family: "Atomic Marker";
-  src: url("/fonts/Atomic Marker.otf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Atomic Marker Extra";
-  src: url("/fonts/Atomic Marker Extras.otf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-body {
-  background-color: #dad7cd;
-  max-width: 100%;
-}
-
 .hero-sec {
   position: relative;
   width: 100%;

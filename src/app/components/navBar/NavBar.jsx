@@ -18,7 +18,7 @@ export const NavBar = () => {
         <Link href="/#about">About</Link>
       </li>
       <li>
-        <Link href="/blog">Blog</Link>{" "}
+        <Link href="/">Blog</Link>
       </li>
       <li>
         <Link href="/">Projects</Link>
@@ -34,7 +34,7 @@ export const NavBar = () => {
       <div className="menu">
         <div className="menu-items">
           <Link href="/#about">About</Link>
-          <Link href="/blog">Blog</Link>
+          <Link href="/">Blog</Link>
           <Link href="/">Projects</Link>
         </div>
         <motion.div
