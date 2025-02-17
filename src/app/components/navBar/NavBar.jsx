@@ -1,30 +1,21 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import "./NavBar.scss";
 import { motion } from "framer-motion";
 import { IconMenu } from "@tabler/icons-react";
-import Dropdown from "rc-dropdown";
-import "rc-dropdown/assets/index.css";
 import Link from "next/link";
 
 export const NavBar = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
   const onClick = () => {
     console.log("clicked");
   };
-  const menu = (
-    <ul className="drop-menu-items">
-      <li>
-        <Link href="/#about">About</Link>
-      </li>
-      <li>
-        <Link href="/">Blog</Link>
-      </li>
-      <li>
-        <Link href="/">Projects</Link>
-      </li>
-    </ul>
-  );
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
 
   return (
     <div className="NavBar">
@@ -45,9 +36,20 @@ export const NavBar = () => {
         >
           Let&apos;s Talk
         </motion.div>
-        <Dropdown overlay={menu} trigger={["click"]} className="drop-down">
-          <IconMenu className="dropbtn" />
-        </Dropdown>
+        <IconMenu className="dropbtn" onClick={toggleDropdown} />
+        {isDropdownOpen && (
+          <div className="mobile-menu">
+            <Link href="/#about" onClick={toggleDropdown}>
+              About
+            </Link>
+            <Link href="/" onClick={toggleDropdown}>
+              Blog
+            </Link>
+            <Link href="/" onClick={toggleDropdown}>
+              Projects
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );

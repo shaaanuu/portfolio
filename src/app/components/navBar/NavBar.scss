@@ -20,35 +20,6 @@ h6 {
 
 body {
   margin: 0;
-
-  @media only screen and (max-width: 600px) {
-    .NavBar {
-      padding-right: 0;
-      .menu {
-        a {
-          display: block;
-          padding: 12px 16px;
-          text-decoration: none;
-          color: black;
-        }
-
-        .dropbtn {
-          display: block;
-          font-size: 16px;
-          background: none;
-          padding: 10px;
-
-          &:hover {
-            cursor: pointer;
-          }
-        }
-
-        .menu-items {
-          display: none;
-        }
-      }
-    }
-  }
 }
 
 .NavBar {
@@ -72,6 +43,7 @@ body {
   .menu {
     margin-block: auto;
     display: flex;
+    position: relative;
 
     a:hover {
       color: grey;
@@ -87,33 +59,53 @@ body {
       padding: 10px;
       border-radius: 25px;
     }
+
+    .mobile-menu {
+      display: none;
+    }
   }
 }
 
-.rc-dropdown {
-  width: 100%;
-  padding: 0;
-  margin: 0;
+@media only screen and (max-width: 600px) {
+  .NavBar {
+    padding-right: 0;
 
-  .drop-menu-items {
-    background-color: #dad7cd;
-    list-style: none;
+    .menu {
+      .menu-items {
+        display: none;
+      }
 
-    li {
-      margin-bottom: 10px;
-      display: flex;
-      justify-content: center;
-    }
+      .dropbtn {
+        display: block;
+        font-size: 16px;
+        background: none;
+        padding: 10px;
+        cursor: pointer;
+      }
 
-    a {
-      text-decoration: none;
-      color: #333;
-      font-size: 20px;
-      padding: 15px;
-    }
+      .mobile-menu {
+        display: block;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #dad7cd;
+        width: 100vw;
 
-    a:hover {
-      color: #555;
+        a {
+          display: block;
+          padding: 12px 16px;
+          text-decoration: none;
+          color: #333;
+          font-size: 20px;
+          text-align: center;
+          margin: 0;
+
+          &:hover {
+            color: #555;
+            background-color: rgba(0, 0, 0, 0.05);
+          }
+        }
+      }
     }
   }
 }
