@@ -20,12 +20,12 @@ export const NavBar = () => {
   return (
     <div className="NavBar">
       <h3>
-        <Link href="#">shaaanuu</Link>
+        <Link href="/">shaaanuu</Link>
       </h3>
       <div className="menu">
         <div className="menu-items">
           <Link href="/#about">About</Link>
-          <Link href="/">Blog</Link>
+          <Link href="/blog">Blog</Link>
           <Link href="/">Projects</Link>
         </div>
         <motion.div
@@ -42,7 +42,7 @@ export const NavBar = () => {
             <Link href="/#about" onClick={toggleDropdown}>
               About
             </Link>
-            <Link href="/" onClick={toggleDropdown}>
+            <Link href="/blog" onClick={toggleDropdown}>
               Blog
             </Link>
             <Link href="/" onClick={toggleDropdown}>

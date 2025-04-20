@@ -11,31 +11,3 @@
   font-weight: normal;
   font-style: normal;
 }
-
-body {
-  background-color: #dad7cd;
-  max-width: 100%;
-  cursor: none;
-
-  a {
-    cursor: none;
-  }
-
-  .cursor {
-    width: 20px;
-    height: 20px;
-    border-radius: 30px;
-    background-color: #78786d;
-    position: fixed;
-    pointer-events: none;
-    transition: fill 0.2s ease;
-    z-index: 1000;
-    transition: transform 0.3s ease;
-
-    &.hero-tail-hover {
-      transform: translate(-50%, -50%) scale(2.5);
-      background-color: #252422;
-      mix-blend-mode: difference;
-    }
-  }
-}
