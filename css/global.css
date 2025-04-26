@@ -1,7 +1,12 @@
 @import "./navbar.css";
+@import "./hero.css";
 
 body {
   background-color: #dad7cd;
+
+  ::selection {
+    background-color: #25242238;
+  }
 }
 
 h1,
