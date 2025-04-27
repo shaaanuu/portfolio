@@ -1,12 +1,27 @@
 @import "./navbar.css";
 @import "./hero.css";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #dad7cd;
 
   ::selection {
     background-color: #25242238;
   }
+}
+
+a {
+  text-decoration: none;
+  padding-inline: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #252422;
+  text-decoration-style: wavy;
 }
 
 h1,

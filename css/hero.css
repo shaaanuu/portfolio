@@ -57,3 +57,92 @@
     font-family: "Atomic Marker Extra", cursive;
   }
 }
+
+.hero-about {
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+
+  @media only screen and (min-width: 900px) {
+    h2 {
+      font-size: 34px;
+    }
+    h3 {
+      font-size: 22px;
+    }
+    div {
+      font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    h2 {
+      font-size: 32px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    div {
+      font-size: 18px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    h2 {
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    div {
+      font-size: 16px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    h2 {
+      font-size: 28px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    div {
+      font-size: 14px;
+    }
+  }
+  /* @media only screen and (max-width: 600px) {
+    font-size: 115px;
+  }
+  @media only screen and (max-width: 500px) {
+    font-size: 90px;
+  }
+  @media only screen and (max-width: 400px) {
+    font-size: 80px;
+  }
+  @media only screen and (max-width: 350px) {
+    font-size: 70px;
+  }
+  @media only screen and (max-width: 300px) {
+    font-size: 60px;
+  } */
+
+  h2 {
+    margin: 0px;
+  }
+
+  h3 {
+    padding-inline: 15px;
+    font-weight: normal;
+    margin: 10px;
+  }
+
+  div {
+    text-align: center;
+    padding: 20px;
+
+    a {
+      color: #252422c4;
+
+      text-decoration-color: #252422c4;
+    }
+  }
+}
