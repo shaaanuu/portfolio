@@ -9,6 +9,9 @@ header {
 
   .logo {
     font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    padding: 0;
   }
 
   .menu-btn {
@@ -32,7 +35,7 @@ header {
       font-size: 16px;
     }
 
-    .links {
+    .nav-links {
       display: none;
     }
 
@@ -41,7 +44,7 @@ header {
       cursor: pointer;
     }
 
-    .links.active {
+    .nav-links.active {
       display: flex;
     }
   }

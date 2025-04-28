@@ -1,0 +1,23 @@
+.content {
+  padding: 2.5rem;
+
+  h1 {
+    letter-spacing: 1px;
+    margin: 0;
+    padding-block: 1rem;
+  }
+
+  h3 {
+    letter-spacing: 1px;
+  }
+
+  p {
+    letter-spacing: 0.5px;
+    margin-block: 0.5rem;
+  }
+
+  .content-section {
+    margin-block: 2.5rem;
+    margin-inline: 1rem;
+  }
+}
