@@ -3,6 +3,11 @@
 @import "./footer.css";
 @import "./contents.css";
 
+@font-face {
+  font-family: "Fira Code";
+  src: url(../fonts/fira_code.ttf);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -35,7 +40,7 @@ h6,
 p,
 div,
 a {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Fira Code", Helvetica, Arial, sans-serif;
   color: #252422;
 }
 
