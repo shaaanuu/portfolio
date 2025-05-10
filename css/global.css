@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Fira Code";
-  src: url(../fonts/fira_code.ttf);
+  src: url(../fonts/fira_code.woff2) format("woff2");
 }
 
 html {
@@ -40,7 +40,7 @@ h6,
 p,
 div,
 a {
-  font-family: "Fira Code", Helvetica, Arial, sans-serif;
+  font-family: "Fira Code", monospace;
   color: #252422;
 }
 

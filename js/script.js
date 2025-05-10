@@ -5,7 +5,7 @@ a.addEventListener("click", () => {
 });
 
 // Generate the random glyphs in hero
-"ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJK".split("").forEach((letter) => {
+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijk".split("").forEach((letter) => {
   const div = document.createElement("div");
   div.className = "letter";
   div.textContent = letter;

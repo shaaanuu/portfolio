@@ -1,10 +1,12 @@
 @font-face {
   font-family: "Atomic Marker";
-  src: url(../fonts/atomic_marker.otf);
+  src: url(../fonts/atomic_marker.woff2) format("woff2");
+  font-display: block;
 }
 @font-face {
   font-family: "Atomic Marker Extra";
-  src: url(../fonts/atomic_marker_extras.otf);
+  src: url(../fonts/atomic_marker_extras.woff2) format("woff2");
+  font-display: block;
 }
 
 .hero {
@@ -16,7 +18,7 @@
   width: 100%;
 
   h1 {
-    font-family: "Atomic Marker", cursive;
+    font-family: "Atomic Marker";
     font-size: 200px;
     transform: rotate(-10deg);
     text-shadow: 10px 10px 0.5px #25242247;
