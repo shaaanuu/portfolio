@@ -8,6 +8,7 @@ permalink: /contact.html
   <h1>{{ title }}</h1>
 
   <div class="content-section">
+    <h3>Social Media</h3>
     <p>
       Since I don't want to share my email because of the web scrapers which
       loves to spam, you can contact me through any of this.
