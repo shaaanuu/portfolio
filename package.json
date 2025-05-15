@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is my simple portfolio, where I keep things clean and minimal, like the internet meant to be (Or atleast i believe).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaaanuu/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/shaaanuu/portfolio/issues"
+  },
+  "homepage": "https://github.com/shaaanuu/portfolio#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link
+      rel="preload"
+      href="/fira_code.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/atomic_marker.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="/atomic_marker_extras.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/bundle.css" />
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">Muhammed Shan</a>
+      <div class="nav-links">
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+        <a href="/environment">Environment</a>
+        <a href="/blog">Blog</a>
+        <a href="/contact">Contact</a>
+      </div>
+      <a class="menu-btn" id="menu-btn">Menu</a>
+    </header>
+
+    <main>{{ content | safe }}</main>
+
+    <footer>
+      <h5>(c) 2025 Muhammed Shan</h5>
+      <p>This website was built in a way that internet was meant to be.</p>
+      <p>
+        A simple pure website with no fancy frameworks or libraries. Just fast
+        as possible.
+      </p>
+    </footer>
+
+    <script src="/menu.js"></script>
+  </body>
+</html>

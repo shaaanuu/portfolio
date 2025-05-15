@@ -1,0 +1,358 @@
+/* global */
+@font-face {
+  font-family: "Fira Code";
+  src: url(/fira_code.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Atomic Marker";
+  src: url(/atomic_marker.woff2) format("woff2");
+  font-display: block;
+}
+@font-face {
+  font-family: "Atomic Marker Extra";
+  src: url(/atomic_marker_extras.woff2) format("woff2");
+  font-display: block;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #dad7cd;
+
+  ::selection {
+    background-color: #25242238;
+  }
+}
+a {
+  text-decoration: none;
+  padding-inline: 5px;
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #252422;
+  text-decoration-style: wavy;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+a {
+  font-family: "Fira Code", monospace;
+  color: #252422;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1rem;
+  padding-inline: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+  .logo {
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    padding: 0;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+  @media screen and (max-width: 850px) {
+    padding-inline: 1.5rem;
+
+    .logo {
+      font-size: 18px;
+    }
+
+    a {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .logo {
+      font-size: 16px;
+    }
+
+    .nav-links {
+      display: none;
+    }
+
+    .menu-btn {
+      display: block;
+      cursor: pointer;
+    }
+
+    .nav-links.active {
+      display: flex;
+    }
+  }
+}
+
+/* Links */
+@media only screen and (min-width: 900px) {
+  .links {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .links {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .links {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .links {
+    font-size: 14px;
+  }
+}
+.links {
+  text-align: center;
+  padding: 20px;
+  a {
+    color: #252422c4;
+    text-decoration-color: #252422c4;
+    padding-inline: 0.5rem;
+  }
+}
+
+/* hero */
+.hero {
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+
+  h1 {
+    font-family: "Atomic Marker";
+    font-size: 200px;
+    transform: rotate(-10deg);
+    text-shadow: 10px 10px 0.5px #25242247;
+    z-index: 1;
+
+    @media only screen and (max-width: 1000px) {
+      font-size: 180px;
+    }
+    @media only screen and (max-width: 900px) {
+      font-size: 160px;
+    }
+    @media only screen and (max-width: 800px) {
+      font-size: 140px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 125px;
+    }
+    @media only screen and (max-width: 600px) {
+      font-size: 115px;
+    }
+    @media only screen and (max-width: 500px) {
+      font-size: 90px;
+    }
+    @media only screen and (max-width: 400px) {
+      font-size: 80px;
+    }
+    @media only screen and (max-width: 350px) {
+      font-size: 70px;
+    }
+    @media only screen and (max-width: 300px) {
+      font-size: 60px;
+    }
+  }
+
+  .letter {
+    position: absolute;
+    color: #252422c4;
+    font-family: "Atomic Marker Extra", cursive;
+  }
+}
+.hero-about {
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+
+  @media only screen and (min-width: 900px) {
+    h2 {
+      font-size: 34px;
+    }
+    h3 {
+      font-size: 22px;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    h2 {
+      font-size: 32px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    h2 {
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    h2 {
+      font-size: 28px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+  }
+
+  h2 {
+    margin: 0px;
+    text-align: center;
+  }
+
+  h3 {
+    padding-inline: 15px;
+    font-weight: normal;
+    margin: 10px;
+  }
+}
+
+/* contents */
+.content {
+  min-height: 28rem;
+
+  h1 {
+    letter-spacing: 1px;
+    margin: 0;
+    padding-block: 1rem;
+  }
+
+  h3 {
+    letter-spacing: 1px;
+  }
+
+  p {
+    letter-spacing: 0.5px;
+    margin-block: 1rem;
+  }
+
+  .content-section {
+    margin-block: 2.5rem;
+  }
+
+  @media only screen and (min-width: 900px) {
+    padding: 2.5rem;
+
+    .content-section {
+      margin-inline: 1rem;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    padding: 2.3rem;
+
+    h1 {
+      font-size: 28px;
+    }
+
+    .content-section {
+      margin-inline: 1rem;
+
+      h3 {
+        font-size: 17px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    h1 {
+      font-size: 26px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    padding: 1rem;
+
+    h1 {
+      font-size: 24px;
+    }
+
+    .content-section {
+      h3 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: -0.5px;
+
+  h5 {
+    margin: 5px;
+    opacity: 85%;
+  }
+
+  p {
+    margin: 0;
+    opacity: 75%;
+  }
+
+  @media only screen and (min-width: 600px) {
+    p {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    p {
+      font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    h5 {
+      font-size: 12px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    h5 {
+      font-size: 11px;
+    }
+    p {
+      font-size: 9px;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    h5 {
+      font-size: 10px;
+    }
+    p {
+      font-size: 8px;
+    }
+  }
+}
