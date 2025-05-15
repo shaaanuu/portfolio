@@ -22,6 +22,9 @@ body {
   ::selection {
     background-color: #25242238;
   }
+  p {
+    line-height: 1.5rem;
+  }
 }
 a {
   text-decoration: none;
@@ -354,5 +357,22 @@ footer {
     p {
       font-size: 8px;
     }
+  }
+}
+
+/* Blog */
+blockquote {
+  background-color: #25242238;
+  padding-block: 2px;
+  border-left: 2px solid #666;
+  padding-inline: 1.6rem;
+  font-style: italic;
+  border-radius: 2px;
+}
+.blog {
+  a {
+    padding: 0;
+    text-decoration: underline #252422c4;
+    color: #252422c4;
   }
 }
