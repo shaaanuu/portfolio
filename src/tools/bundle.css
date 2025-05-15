@@ -1,16 +1,16 @@
 /* global */
 @font-face {
   font-family: "Fira Code";
-  src: url(/tools/fira_code.woff2) format("woff2");
+  src: url(/fira_code.woff2) format("woff2");
 }
 @font-face {
   font-family: "Atomic Marker";
-  src: url(/tools/atomic_marker.woff2) format("woff2");
+  src: url(/atomic_marker.woff2) format("woff2");
   font-display: block;
 }
 @font-face {
   font-family: "Atomic Marker Extra";
-  src: url(/tools/atomic_marker_extras.woff2) format("woff2");
+  src: url(/atomic_marker_extras.woff2) format("woff2");
   font-display: block;
 }
 html {

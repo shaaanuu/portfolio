@@ -1,6 +1,7 @@
 ---
 title: About me
 layout: base.njk
+permalink: /about.html
 ---
 
 <div class="content">

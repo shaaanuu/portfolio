@@ -1,6 +1,7 @@
 ---
 title: Environment
 layout: base.njk
+permalink: /environment.html
 ---
 
 <div class="content">

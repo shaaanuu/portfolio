@@ -22,4 +22,4 @@ layout: base.njk
   </div>
 </div>
 
-<script src="/tools/glyphs.js"></script>
+<script src="/glyphs.js"></script>

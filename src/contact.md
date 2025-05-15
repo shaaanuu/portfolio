@@ -1,6 +1,7 @@
 ---
 title: Contact
 layout: base.njk
+permalink: /contact.html
 ---
 
 <div class="content">
