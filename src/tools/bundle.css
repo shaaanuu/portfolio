@@ -23,7 +23,7 @@ body {
     background-color: #25242238;
   }
   p {
-    line-height: 1.5rem;
+    line-height: 1.8rem;
   }
 }
 a {
@@ -241,8 +241,7 @@ header {
 
   h1 {
     letter-spacing: 1px;
-    margin: 0;
-    padding-block: 1rem;
+    margin-block: 1rem;
   }
 
   h3 {
@@ -273,7 +272,7 @@ header {
     }
 
     .content-section {
-      margin-inline: 1rem;
+      margin-inline: 0.8rem;
 
       h3 {
         font-size: 17px;
@@ -287,6 +286,9 @@ header {
   @media only screen and (max-width: 800px) {
     h1 {
       font-size: 26px;
+    }
+    .content-section {
+      margin-inline: 0.5rem;
     }
   }
   @media only screen and (max-width: 700px) {
