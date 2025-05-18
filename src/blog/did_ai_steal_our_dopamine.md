@@ -10,6 +10,8 @@ Facebook was one of the main examples. When it got a public release, it was cool
 
 Nowadays, the algorithm knows about you more than you know about you. Companies spend millions to keep you engaged in their platforms. As a result, they harvested our data and sold it, while we are suffering from _infinite scrolling addiction_. I am sure you have heard the word **Dopamine**, it's a neurochemical behind _pleasure_.
 
+And, what I wanna talk about is AI's impact on our dopamine.
+
 Imagine this: you are thinking about an idea that has been haunting you for some time. You decided to do it. You went to the internet to learn about that idea. Found some fun facts about it that made you laugh. Found someone else that tried the same thing but failed. So you learned how it failed. And suddenly you got an "Eureka...!" moment because you found a new way that might make you win and also make this project feels like a fun game. And then, you get stuck inside a loop of some problems, but you made it, you solved the issues. And every time you solved it, you got an "Eureka...!" moment.
 
 Notice the "Eureka...!" moments? That was the _Dopamine hit_, and that is the moments that made you move forward. Without it, your progress feels boring and not exciting enough to work with. When you give the workload to a non-emotional thing, you are giving your motivation to work on it to the void. Same goes for the hobbies like coding, writing, etc. It is faster, but not fun. But do you know the reason for that _Dopamine hit_ you got wasn't because how fast you finished the project, but rather, how you finished it?
