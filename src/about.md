@@ -60,15 +60,18 @@ permalink: /about.html
   <div class="content-section">
     <h3>Website</h3>
     <p>
-      If you are familiar with basic web dev and have seen the source code of
-      this site, you must be wondering why did I wrote this in pure HTMl, CSS
-      and JS. I could have used one of the frameworks from tons out there, but
-      this site is my personal space on the internet, and it reflects who I am.
-      I don't want it to be bloated and slow.
+      This site is built using the 11ty site generator. Now you must be
+      wondering, why did i go for a static site, especially when there are tons
+      of over-engineered JS frameworks releasing each year and even when there
+      is a blog section in it - which can be stored in a DB and then can be
+      fetched and.... whatever. Trust me, this static approach is better for
+      this kinds of simple project. Also this is my personal portfolio, a
+      reflection of me, which I never want to be bloated and slow.
     </p>
     <p>
-      But, it doesn't matter. Nobody cares. After all, this is just a personal
-      portfolio, not a huge project which have many collaborators.
+      You can check it yourself, this site is as fast as possible
+      <em>(scoring 100 in desktop and 99 in mobile view - with lighthouse)</em>
+      and also tiny in size <em>(only under ~300kb when I wrote this)</em>.
     </p>
   </div>
 </div>
