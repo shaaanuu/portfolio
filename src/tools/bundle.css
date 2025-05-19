@@ -316,9 +316,10 @@ footer {
   padding: 10px;
   letter-spacing: -0.5px;
 
-  h5 {
-    margin: 5px;
+  .footer-name {
+    font-weight: bold;
     opacity: 85%;
+    letter-spacing: 0;
   }
 
   p {
@@ -337,7 +338,7 @@ footer {
     }
   }
   @media only screen and (max-width: 500px) {
-    h5 {
+    .footer-name {
       font-size: 12px;
     }
     p {
@@ -345,7 +346,7 @@ footer {
     }
   }
   @media only screen and (max-width: 400px) {
-    h5 {
+    .footer-name {
       font-size: 11px;
     }
     p {
@@ -353,7 +354,7 @@ footer {
     }
   }
   @media only screen and (max-width: 300px) {
-    h5 {
+    .footer-name {
       font-size: 10px;
     }
     p {
