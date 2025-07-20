@@ -13,9 +13,11 @@
   src: url(/atomic_marker_extras.woff2) format("woff2");
   font-display: block;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background-color: #dad7cd;
 }
@@ -25,6 +27,7 @@ body ::selection {
 body p {
   line-height: 1.8rem;
 }
+
 a {
   text-decoration: none;
   padding-inline: 5px;
@@ -34,18 +37,12 @@ a:hover {
   text-decoration-color: #252422;
   text-decoration-style: wavy;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-div,
-a {
+
+h1,h2,h3,h4,h5,h6,p,div,a {
   font-family: "Fira Code", monospace;
   color: #252422;
 }
+
 /* header */
 header {
   display: flex;
@@ -60,11 +57,11 @@ header .logo {
   font-size: 20px;
   cursor: pointer;
   letter-spacing: 1.5px;
-  padding: 0;
 }
 header .menu-btn {
   display: none;
 }
+
 @media screen and (max-width: 850px) {
   header {
     padding-inline: 1.5rem;
@@ -91,27 +88,8 @@ header .menu-btn {
     display: flex;
   }
 }
+
 /* Links */
-@media only screen and (min-width: 900px) {
-  .links {
-    font-size: 20px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .links {
-    font-size: 18px;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .links {
-    font-size: 16px;
-  }
-}
-@media only screen and (max-width: 700px) {
-  .links {
-    font-size: 14px;
-  }
-}
 .links {
   text-align: center;
   padding: 20px;
@@ -121,6 +99,19 @@ header .menu-btn {
   text-decoration-color: #252422c4;
   padding-inline: 0.5rem;
 }
+@media (min-width: 900px) {
+  .links { font-size: 20px; }
+}
+@media (max-width: 900px) {
+  .links { font-size: 18px; }
+}
+@media (max-width: 800px) {
+  .links { font-size: 16px; }
+}
+@media (max-width: 700px) {
+  .links { font-size: 14px; }
+}
+
 /* hero */
 .hero {
   height: 40rem;
@@ -137,56 +128,39 @@ header .menu-btn {
   text-shadow: 10px 10px 0.5px #25242247;
   z-index: 1;
 }
-@media only screen and (max-width: 1000px) {
-  .hero h1 {
-    font-size: 180px;
-  }
+@media (max-width: 1000px) {
+  .hero h1 { font-size: 180px; }
 }
-@media only screen and (max-width: 900px) {
-  .hero h1 {
-    font-size: 160px;
-  }
+@media (max-width: 900px) {
+  .hero h1 { font-size: 160px; }
 }
-@media only screen and (max-width: 800px) {
-  .hero h1 {
-    font-size: 140px;
-  }
+@media (max-width: 800px) {
+  .hero h1 { font-size: 140px; }
 }
-@media only screen and (max-width: 700px) {
-  .hero h1 {
-    font-size: 125px;
-  }
+@media (max-width: 700px) {
+  .hero h1 { font-size: 125px; }
 }
-@media only screen and (max-width: 600px) {
-  .hero h1 {
-    font-size: 115px;
-  }
+@media (max-width: 600px) {
+  .hero h1 { font-size: 115px; }
 }
-@media only screen and (max-width: 500px) {
-  .hero h1 {
-    font-size: 90px;
-  }
+@media (max-width: 500px) {
+  .hero h1 { font-size: 90px; }
 }
-@media only screen and (max-width: 400px) {
-  .hero h1 {
-    font-size: 80px;
-  }
+@media (max-width: 400px) {
+  .hero h1 { font-size: 80px; }
 }
-@media only screen and (max-width: 350px) {
-  .hero h1 {
-    font-size: 70px;
-  }
+@media (max-width: 350px) {
+  .hero h1 { font-size: 70px; }
 }
-@media only screen and (max-width: 300px) {
-  .hero h1 {
-    font-size: 60px;
-  }
+@media (max-width: 300px) {
+  .hero h1 { font-size: 60px; }
 }
 .hero .letter {
   position: absolute;
   color: #252422c4;
   font-family: "Atomic Marker Extra", cursive !important;
 }
+
 .hero-about {
   height: 40rem;
   display: flex;
@@ -194,40 +168,8 @@ header .menu-btn {
   align-items: center;
   letter-spacing: 1px;
 }
-@media only screen and (min-width: 900px) {
-  .hero-about h2 {
-    font-size: 34px;
-  }
-  .hero-about h3 {
-    font-size: 22px;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .hero-about h2 {
-    font-size: 32px;
-  }
-  .hero-about h3 {
-    font-size: 20px;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .hero-about h2 {
-    font-size: 30px;
-  }
-  .hero-about h3 {
-    font-size: 18px;
-  }
-}
-@media only screen and (max-width: 700px) {
-  .hero-about h2 {
-    font-size: 28px;
-  }
-  .hero-about h3 {
-    font-size: 16px;
-  }
-}
 .hero-about h2 {
-  margin: 0px;
+  margin: 0;
   text-align: center;
 }
 .hero-about h3 {
@@ -235,6 +177,23 @@ header .menu-btn {
   font-weight: normal;
   margin: 10px;
 }
+@media (min-width: 900px) {
+  .hero-about h2 { font-size: 34px; }
+  .hero-about h3 { font-size: 22px; }
+}
+@media (max-width: 900px) {
+  .hero-about h2 { font-size: 32px; }
+  .hero-about h3 { font-size: 20px; }
+}
+@media (max-width: 800px) {
+  .hero-about h2 { font-size: 30px; }
+  .hero-about h3 { font-size: 18px; }
+}
+@media (max-width: 700px) {
+  .hero-about h2 { font-size: 28px; }
+  .hero-about h3 { font-size: 16px; }
+}
+
 /* contents */
 .content {
   min-height: 28rem;
@@ -253,7 +212,7 @@ header .menu-btn {
 .content .content-section {
   margin-block: 2.5rem;
 }
-@media only screen and (min-width: 900px) {
+@media (min-width: 900px) {
   .content {
     padding: 2.5rem;
   }
@@ -261,7 +220,7 @@ header .menu-btn {
     margin-inline: 1rem;
   }
 }
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
   .content {
     padding: 2.3rem;
   }
@@ -278,15 +237,13 @@ header .menu-btn {
     font-size: 15px;
   }
 }
-@media only screen and (max-width: 800px) {
-  .content h1 {
-    font-size: 26px;
-  }
+@media (max-width: 800px) {
+  .content h1 { font-size: 26px; }
   .content .content-section {
     margin-inline: 0.5rem;
   }
 }
-@media only screen and (max-width: 700px) {
+@media (max-width: 700px) {
   .content {
     padding: 1rem;
   }
@@ -300,6 +257,7 @@ header .menu-btn {
     font-size: 14px;
   }
 }
+
 /* footer */
 footer {
   text-align: center;
@@ -309,46 +267,30 @@ footer {
 footer .footer-name {
   font-weight: bold;
   opacity: 85%;
-  letter-spacing: 0;
 }
 footer p {
   margin: 0;
   opacity: 75%;
 }
-@media only screen and (min-width: 600px) {
-  footer p {
-    font-size: 14px;
-  }
+@media (min-width: 600px) {
+  footer p { font-size: 14px; }
 }
-@media only screen and (max-width: 600px) {
-  footer p {
-    font-size: 12px;
-  }
+@media (max-width: 600px) {
+  footer p { font-size: 12px; }
 }
-@media only screen and (max-width: 500px) {
-  footer .footer-name {
-    font-size: 12px;
-  }
-  footer p {
-    font-size: 10px;
-  }
+@media (max-width: 500px) {
+  footer .footer-name { font-size: 12px; }
+  footer p { font-size: 10px; }
 }
-@media only screen and (max-width: 400px) {
-  footer .footer-name {
-    font-size: 11px;
-  }
-  footer p {
-    font-size: 9px;
-  }
+@media (max-width: 400px) {
+  footer .footer-name { font-size: 11px; }
+  footer p { font-size: 9px; }
 }
-@media only screen and (max-width: 300px) {
-  footer .footer-name {
-    font-size: 10px;
-  }
-  footer p {
-    font-size: 8px;
-  }
+@media (max-width: 300px) {
+  footer .footer-name { font-size: 10px; }
+  footer p { font-size: 8px; }
 }
+
 /* Blog */
 blockquote {
   background-color: #25242238;
