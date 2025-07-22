@@ -306,3 +306,23 @@ blockquote {
   color: #252422c4;
 }
 
+/* 404 */
+.error404 {
+  height: 75dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-inline: 1rem;
+  letter-spacing: 1px;
+}
+.error404 a {
+  color: #252422c4;
+  text-decoration: underline wavy #252422c4;
+  padding-inline: 5px;
+}
+.error404 h3 {
+  margin: 0;
+  font-weight: normal;
+}
