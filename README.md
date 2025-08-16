@@ -12,6 +12,4 @@ If you saw the code, you'll be like _"Wait, no framwork?"_. I get you, but i don
 
 Just wanna make this site fast and smooth with tiny as possible while keeping a nice design.
 
-## **License**
-
 Licensed under [MIT](https://github.com/shaaanuu/portfolio/blob/main/LICENSE). Do whatever you want (responsibly).
