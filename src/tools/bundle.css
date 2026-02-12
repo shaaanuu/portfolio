@@ -103,7 +103,7 @@ header .menu-btn {
   text-align: center;
   padding: 20px;
 }
-.links a {
+.content .content-section .links a {
   color: #252422c4;
   text-decoration-color: #252422c4;
   padding-inline: 0.5rem;
