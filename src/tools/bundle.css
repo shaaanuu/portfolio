@@ -16,16 +16,25 @@
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
   background-color: #dad7cd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 body ::selection {
   background-color: #25242238;
 }
 body p {
   line-height: 1.8rem;
+}
+
+main {
+  flex: 1;
+  display: flex;
 }
 
 a {
@@ -195,9 +204,6 @@ header .menu-btn {
 }
 
 /* contents */
-.content {
-  min-height: 28rem;
-}
 .content h1 {
   letter-spacing: 1px;
   margin-block: 1rem;
@@ -315,14 +321,8 @@ blockquote {
 
 /* 404 */
 .error404 {
-  height: 75dvh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
   text-align: center;
-  padding-inline: 1rem;
-  letter-spacing: 1px;
 }
 .error404 a {
   color: #252422c4;
