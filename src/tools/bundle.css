@@ -209,8 +209,15 @@ header .menu-btn {
   letter-spacing: 0.5px;
   margin-block: 1rem;
 }
+.content li {
+  line-height: 2rem;
+}
 .content .content-section {
   margin-block: 2.5rem;
+}
+.content .content-section a {
+  color: #252422c4;
+  padding: 0;
 }
 @media (min-width: 900px) {
   .content {
