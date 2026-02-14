@@ -334,3 +334,53 @@ blockquote {
   margin: 0;
   font-weight: normal;
 }
+
+/* projects */
+.project-sec{
+  margin-inline: 0;
+  column-count: 3;
+  column-gap: 50px;
+}
+.project-card {
+  background-color: #25242238;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  break-inside: avoid;
+}
+.project-card:hover {
+  cursor: pointer;
+  transform: scale(1.05) rotate(2deg);
+  transition: all 0.15s ease;
+  box-shadow: 0 0 15px #25242238;
+}
+.project-card h3 {
+  margin: 0;
+}
+.project-card .card-footer {
+  display: flex;
+  justify-content: right;
+}
+.project-card .card-footer .card-footer-content {
+  display: flex;
+  align-items: center;
+}
+.project-card .card-footer img {
+  width: 1.5rem;
+  image-rendering: pixelated;
+}
+.project-card .card-footer h4 {
+  margin: 0;
+  padding-inline: 10px;
+}
+@media (max-width: 1000px) {
+  .project-sec{
+    column-count: 2;
+    column-gap: 30px;
+  }
+}
+@media (max-width: 550px) {
+  .project-sec{
+    column-count: 1;
+  }
+}
