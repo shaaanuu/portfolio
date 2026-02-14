@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Endernote",
+    "desc": "A Flutter-based Markdown note app that works",
+    "lang": "Flutter"
+  },
+  {
+    "name": "Portfolio",
+    "desc": "Just a personal portfolio...",
+    "lang": "11ty"
+  },
+  {
+    "name": "nixdots",
+    "desc": "Personal NixOS dotfiles",
+    "lang": "Nix"
+  },
+  {
+    "name": "NPC-Bot",
+    "desc": "A quirky NPC bot that glitches.",
+    "lang": "Python"
+  },
+  {
+    "name": "snake-game",
+    "desc": "Hungry snake and an apple...",
+    "lang": "C"
+  },
+  {
+    "name": "swaycut",
+    "desc": "A minimal screenshot utility for Sway",
+    "lang": "Shell"
+  },
+  {
+    "name": "Iconsax-Linear",
+    "desc": "Iconsax Linear icon pack for flutter.",
+    "lang": "Flutter"
+  },
+  {
+    "name": "maktub",
+    "desc": "Simple todo app.",
+    "lang": "Flutter"
+  },
+  {
+    "name": "MovieMania",
+    "desc": "IMDB redesigned.",
+    "lang": "Flutter"
+  },
+  {
+    "name": "NumLog",
+    "desc": "Random fact about number generator.",
+    "lang": "Flutter"
+  },
+  {
+    "name": "facty",
+    "desc": "Random fact generator",
+    "lang": "Flutter"
+  },
+  {
+    "name": "books-api",
+    "desc": "Sample Vania backend web application framework for serving a collection of books as an API.",
+    "lang": "Dart"
+  },
+  {
+    "name": "solar-system-api",
+    "desc": "Some solar system planets and its things....",
+    "lang": "nodeJS"
+  },
+  {
+    "name": "startpage",
+    "desc": "A minimal starpage for Chrome and Firefox",
+    "lang": "JS"
+  }
+]

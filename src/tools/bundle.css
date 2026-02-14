@@ -364,7 +364,6 @@ blockquote {
 .project-card .card-footer .card-footer-content {
   display: flex;
   align-items: center;
-  margin-left: 16px;
 }
 .project-card .card-footer img {
   width: 1.5rem;
