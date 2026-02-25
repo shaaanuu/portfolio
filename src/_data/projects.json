@@ -68,5 +68,10 @@
     "name": "startpage",
     "desc": "A minimal starpage for Chrome and Firefox",
     "lang": "JS"
+  },
+  {
+    "name": "playpack",
+    "desc": "A simple script to pull raw high-quality audio from YouTube.",
+    "lang": "Shell"
   }
 ]
