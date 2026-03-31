@@ -70,6 +70,11 @@
     "lang": "JS"
   },
   {
+    "name": "nook",
+    "desc": "A stupid simple startpage",
+    "lang": "HTML"
+  },
+  {
     "name": "playpack",
     "desc": "A simple script to pull raw high-quality audio from YouTube.",
     "lang": "Shell"
